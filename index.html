@@ -9,8 +9,22 @@
   <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
 </head>
 <body id="myBod">
-  <h1>Salmon Cookie Sales Metrics</h1>
+  <h1>Salmon Cookie&#169; Sales Metrics</h1>
+    <!-- <ul id="storeNames"></ul> -->
+
+    <table id="store-table"></table>
+    <fieldset>
+        <form id="store-form">
+          <label>Store Name</label>
+          <input required name="nameOfStore"/>
+          <label>Minimum # of Customers</label>
+          <input name="minCustomers" min="0" max="5"/>
+          <button type="submit">Bake numbers!</button>
+        </form>
+    </fieldset>
   
-  <script src="./cookies.js"></script>
+  <!-- <script src="./cookies.js"></script> -->
+  <!-- <script src="./cooketable.js"></script> -->
+  <script src="./cookieforms.js"></script>
 </body>
 </html>

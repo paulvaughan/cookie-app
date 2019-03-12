@@ -61,7 +61,7 @@ let Alki = {
   }
 }
 
-stores.push('Pike', 'Seatac', 'Seacenter', 'Capitol', 'Alki')
+// stores.push('Pike', 'Seatac', 'Seacenter', 'Capitol', 'Alki')
 
 //Displaying store name in a h2 tag
 let elPikeTitle = document.createElement('h2')

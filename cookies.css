@@ -3,3 +3,24 @@ body {
   background-image: url(https://images.unsplash.com/photo-1520954052043-8527729d0817?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
   background-size: cover;
 }
+
+h1 {
+  color: rgb(77, 20, 85);
+  font-weight: bolder;
+  font-size: 3rem;
+  text-align: center
+}
+
+th {
+  border: solid 1px purple
+}
+
+td {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  border: solid .5px red
+}
+
+table {
+  border: solid 1px purple
+}
