@@ -65,7 +65,7 @@ for(let j = 0; j < stores.length; j++) {
 }
 
 //access our inputs on our form through dot notation
-let elNameOfStore = elForm.elNameOfStore 
+let elNameOfStore = elForm.storeName 
 let elMinCustomers = elForm.minCustomers
 
 //Event listener created with prevent default to hold for instruction. Event will listen for a submit event and create a new instance of our constructor function using the values collected from our form
