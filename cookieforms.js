@@ -65,13 +65,13 @@ for(let j = 0; j < stores.length; j++) {
 }
 
 //access our inputs on our form through dot notation
-let elNameOfStore = elForm.storeName 
+let elNameOfStore = elForm.nameOfStore
 let elMinCustomers = elForm.minCustomers
 
 //Event listener created with prevent default to hold for instruction. Event will listen for a submit event and create a new instance of our constructor function using the values collected from our form
 elForm.addEventListener('submit', function(event) {
   event.preventDefault()
-  let newStore = new CookieStore(elNameOfStore.value, parseInt(elMinCustomers.value), 20, 4)
+  let newStore = new CookieStore(elNameOfStore.value, parseInt(elMinCustomers.value), 65, 4)
   stores.push(newStore)
 
   //Utilize renderNewStore method on our new store to add a new row on our table. 

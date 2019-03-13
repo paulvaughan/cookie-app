@@ -1,5 +1,5 @@
 body {
-  background-image: url(https://images.unsplash.com/photo-1551001626-86e913f8baf7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+  background-image: url(https://images.unsplash.com/photo-1497799716125-986f8ad4f873?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
   background-size: cover;
 }
 
@@ -7,7 +7,8 @@ h1 {
   color: rgb(10, 15, 34);
   font-weight: bolder;
   font-size: 3rem;
-  text-align: center
+  text-align: center;
+  font-family: 'Kalam', cursive;
 }
 
 th {
@@ -15,25 +16,33 @@ th {
 }
 
 td {
-  font-family: 'Poiret One', cursive;
   font-weight: bold;
   border: solid 1px rgb(21, 8, 211)
 }
 
 table {
   border: solid 1px purple;
-  font-family: 'Sniglet', cursive;
+  font-family: 'Kalam', cursive;
 }
 
 label {
-  font-family: 'Sniglet', cursive;
+  font-family: 'Kalam', cursive;
+  color: rgb(163, 13, 95);
+  font-weight: bolder
 }
 
-.jumbotron {
-	color: #4f1c70;
-  font-family: 'Kaushan Script', cursive;
-  box-shadow: 12px 10px 16px rgb(111, 111, 116);
+h2 {
   text-align: center;
-  padding: 2px
+  font-size: 20px;
+  font-family: 'Kalam'
+}
+
+button {
+  font-family: 'Kalam';
+  font-weight: bolder;
+}
+
+img {
+  opacity: 
 }
 
