@@ -1,5 +1,4 @@
 body {
-  font-family: 'Kaushan Script', cursive;
   background-image: url(https://images.unsplash.com/photo-1551001626-86e913f8baf7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
   background-size: cover;
 }
@@ -29,3 +28,12 @@ table {
 label {
   font-family: 'Sniglet', cursive;
 }
+
+.jumbotron {
+	color: #4f1c70;
+  font-family: 'Kaushan Script', cursive;
+  box-shadow: 12px 10px 16px rgb(111, 111, 116);
+  text-align: center;
+  padding: 2px
+}
+
