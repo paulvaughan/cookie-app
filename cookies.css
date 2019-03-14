@@ -21,14 +21,14 @@ td {
 }
 
 table {
-  border: solid 1px purple;
+  border: solid 2px rgb(14, 1, 14);
   font-family: 'Kalam', cursive;
 }
 
 label {
   font-family: 'Kalam', cursive;
   color: rgb(163, 13, 95);
-  font-weight: bolder
+  font-weight: bolder;
 }
 
 h2 {
@@ -42,7 +42,5 @@ button {
   font-weight: bolder;
 }
 
-img {
-  opacity: 
-}
+
 
